@@ -6,13 +6,40 @@
 }
 /* import fonts */
 
+/* main data */
+.cards-group{
+    margin-top: 40px;
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 20px;
+
+}
+.cards-div{
+    width: 1140px;
+   
+    height: 80vh;
+   
+   background: rgb(21,14,135);
+background: linear-gradient(172deg, rgba(21,14,135,1) 0%, rgba(10,168,200,1) 100%);
+}
+.cards-div .left div{
+    flex-direction: column;
+}
+.cards-group img{
+height: 100%;
+}
 /* utality clases */
 .flex{
     display: flex;
+  
 }
 .column{
     flex-direction: column;
 }
 .reverse{
    flex-direction: row-reverse; 
+}
+.container{
+    width: 1140px;
 }
